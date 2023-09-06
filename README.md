@@ -20,4 +20,7 @@ Whether Casual Play or The Gauntlet, earn some Shop Points every time you play! 
 * * *
 ## DEVELOPMENT PROGRESS UPDATES
 
-- Sept 5, 2023 - Created the repo and uploaded game notes to the "_reference" folder
+- Sept 5, 2023 - Created the repo and uploaded notes to the "_reference" folder
+
+* * *
+This game was built using the [Noble Engine](https://github.com/NobleRobot/NobleEngine).
