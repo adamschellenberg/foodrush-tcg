@@ -6,6 +6,7 @@ scene.baseColor = Graphics.kColorWhite
 
 local background
 local logo
+local blankcard
 local menu
 local sequence
 
@@ -15,7 +16,7 @@ function scene:init()
 	scene.super.init(self)
 
 	background = Graphics.image.new("assets/images/background1")
-	logo = Graphics.image.new("libraries/noble/assets/images/NobleRobotLogo")
+	logo = Graphics.image.new("assets/images/card-mmbn-battlechip")
 
 	menu = Noble.Menu.new(false, Noble.Text.ALIGN_LEFT, false, Graphics.kColorWhite, 4,6,0, Noble.Text.FONT_SMALL)
 
@@ -110,8 +111,7 @@ function scene:update()
 
 	Graphics.setColor(Graphics.kColorWhite)
 	Graphics.fillRoundRect(260, -20, 130, 65, 15)
-	logo:setInverted(true)
-	logo:draw(275, 8)
+	logo:draw(0, 0)
 
 end
 
