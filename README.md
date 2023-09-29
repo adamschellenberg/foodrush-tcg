@@ -11,11 +11,11 @@ Use Shop Points earned in The Gauntlet and Casual Play to buy 3-card booster pac
 Build 20-card decks best suited for your desired playstyle. Make a super-powered deck to lay waste to those who dare challenge you, or build a deck with only standard-level cards and really challenge yourself. All play styles are welcome here, just have fun! Save multiple decks to suit your mood!
 
 ### Compete
-Try out your new deck in Casual Play and see how you can improve against various difficulties of opponents. You can even use a completely broken deck that doesn't follow any of the Gauntlet rules, like a deck of all over-powered-level cards, or 20 of the same card. Just be careful, your opponent can do the same thing (if you turn on the "Play By No One's Rules" mode)! There's always another local who basks in the chaos, just like you!
+Try out your new deck in Casual Play and see how you can improve against various difficulties of opponents. You can even turn on the "Play By No One's Rules" mode to use a completely broken deck that doesn't follow any of the Gauntlet rules, like a deck of all over-powered-level cards, or 20 of the same card. Just be careful, your opponent can do the same thing! There's always another local who basks in chaos, just like you!
 
-When you feel brave, take on The Gauntlet, a series of back-to-back battles of increasing difficulty. Can you beat them all and prove that you are the best gamer to ever live?
+When you feel brave, take on the Gauntlet, a series of back-to-back battles of increasing difficulty. Can you beat them all and prove that you are the best gamer to ever live?
 
-Whether Casual Play or The Gauntlet, earn some Shop Points every time you play! These points can be used at the Card Shop to buy more cards, in a lovely, totally-not-addicted cycle!
+Whether you're enjoying Casual Play or the Gauntlet, you'll earn some Shop Points every time you play! These points can be used at the Card Shop to buy more cards to enhance your deck in a lovely, totally-not-addicted-to-opening-booster-packs cycle!
 
 * * *
 ## DEVELOPMENT PROGRESS UPDATES
