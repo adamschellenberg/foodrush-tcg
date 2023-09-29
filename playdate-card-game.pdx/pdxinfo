@@ -1,10 +1,10 @@
-name=A Noble Engine Game
-author=A Lovely Developer
-description=This is a Noble Engine game.
-bundleID=com.yourdomain.GameName
-version=0.0.1
+name=FoodRush TCG
+author=adam schellenberg
+description=FoodRush TCG WIP
+bundleID=com.adamschellenberg.FoodRushTCG
+version=0.0.4
 buildNumber=1
 imagePath=assets/launcher/
 launchSoundPath=assets/launcher/sound.wav
 pdxversion=20000
-buildtime=747444905
+buildtime=748111523

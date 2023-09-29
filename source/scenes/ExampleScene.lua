@@ -5,8 +5,8 @@ local scene = ExampleScene
 scene.baseColor = Graphics.kColorWhite
 
 local background
-local logo
-local blankcard
+local examplecard
+local examplegamelayout
 local menu
 local sequence
 
@@ -16,7 +16,10 @@ function scene:init()
 	scene.super.init(self)
 
 	background = Graphics.image.new("assets/images/background1")
-	logo = Graphics.image.new("assets/images/card-mmbn-battlechip")
+	examplecard = Graphics.image.new("assets/images/card-mmbn-battlechip")
+	examplecardScaleHalf = Graphics.image.new("assets/images/card-mmbn-battlechip-5")
+	examplecardScaleFourth = Graphics.image.new("assets/images/card-mmbn-battlechip-25")
+	examplegamelayout = Graphics.image.new("assets/images/gamelayouttest")
 
 	menu = Noble.Menu.new(false, Noble.Text.ALIGN_LEFT, false, Graphics.kColorWhite, 4,6,0, Noble.Text.FONT_SMALL)
 
@@ -51,6 +54,9 @@ function scene:init()
 	)
 	menu:addItem(
 		"Card Shop"
+	)
+	menu:addItem(
+		"How To Play"
 	)
 
 	local crankTick = 0
@@ -92,6 +98,7 @@ function scene:start()
 
 	menu:activate()
 	Noble.Input.setCrankIndicatorStatus(true)
+	
 
 end
 
@@ -111,7 +118,8 @@ function scene:update()
 
 	Graphics.setColor(Graphics.kColorWhite)
 	Graphics.fillRoundRect(260, -20, 130, 65, 15)
-	logo:draw(0, 0)
+
+	examplegamelayout:draw(0,0)
 
 end
 
