@@ -1,4 +1,4 @@
-# Untitled Action TCG Game For Plauydate
+# FoodRush TCG For Playdate
 A trading card game-esque (minus the trading) game for Playdate with an active-time-battle-inspired battle system.
 
 Collect 100 cards across 3 in-game unlockable card sets and create a 20 card deck that best suits you! Use your deck to battle against a gauntlet of rivals and become the very best, like no one ever was!
