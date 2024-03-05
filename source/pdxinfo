@@ -4,5 +4,5 @@ description=FoodRush TCG WIP
 bundleID=com.adamschellenberg.FoodRushTCG
 version=0.0.4
 buildNumber=1
-imagePath=assets/launcher/
+imagePath=assets/images/fightingfoodonslogo
 launchSoundPath=assets/launcher/sound.wav

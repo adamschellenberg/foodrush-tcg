@@ -16,9 +16,8 @@ function scene:init()
 	scene.super.init(self)
 
 	background = Graphics.image.new("assets/images/background1")
-	examplecard = Graphics.image.new("assets/images/card-mmbn-battlechip")
-	examplecardScaleHalf = Graphics.image.new("assets/images/card-mmbn-battlechip-5")
-	examplecardScaleFourth = Graphics.image.new("assets/images/card-mmbn-battlechip-25")
+	examplecard = Graphics.image.new("assets/images/card-mmbn-battlechip-1")
+	examplefoodon = Graphics.image.new("assets/images/card-mmbn-battlechip-3")
 	examplegamelayout = Graphics.image.new("assets/images/gamelayouttest")
 
 	menu = Noble.Menu.new(false, Noble.Text.ALIGN_LEFT, false, Graphics.kColorWhite, 4,6,0, Noble.Text.FONT_SMALL)
@@ -97,7 +96,7 @@ function scene:start()
 	scene.super.start(self)
 
 	menu:activate()
-	Noble.Input.setCrankIndicatorStatus(true)
+	-- Noble.Input.setCrankIndicatorStatus(true)
 	
 
 end
@@ -119,7 +118,8 @@ function scene:update()
 	Graphics.setColor(Graphics.kColorWhite)
 	Graphics.fillRoundRect(260, -20, 130, 65, 15)
 
-	examplegamelayout:draw(0,0)
+	examplecard:draw(0,0)
+	examplefoodon:drawScaled(25,6, 3)
 
 end
 
