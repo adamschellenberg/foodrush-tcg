@@ -1,0 +1,10 @@
+name=FoodRush TCG
+author=adam schellenberg
+description=FoodRush TCG WIP
+bundleID=com.adamschellenberg.FoodRushTCG
+version=0.0.4
+buildNumber=1
+imagePath=assets/images/fightingfoodonslogo
+launchSoundPath=assets/launcher/sound.wav
+pdxversion=20300
+buildtime=765337962
